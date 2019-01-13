@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".CalculBaseActivity" android:background="@drawable/degrade_background">
+
+    <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar_calcul_base"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:minHeight="?attr/actionBarSize"
+            android:background="@color/colorGreen"
+            android:elevation="4dp"
+            android:fitsSystemWindows="true"
+    />
+    <android.support.constraint.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            tools:layout_editor_absoluteX="0dp" app:layout_constraintTop_toBottomOf="@+id/toolbar_calcul_base"
+            android:layout_marginBottom="8dp" app:layout_constraintBottom_toBottomOf="parent"
+            android:id="@+id/scrollView2">
+        <EditText
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:inputType="numberDecimal"
+                android:ems="10"
+                android:id="@+id/ctr_voulu_et"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:layout_marginEnd="8dp" android:layout_marginRight="8dp"
+                app:layout_constraintStart_toStartOf="@+id/guideline3" android:textSize="16sp"
+                android:layout_marginTop="8dp" app:layout_constraintTop_toBottomOf="@+id/qte_base_et"
+                android:hint="mg/ml"
+                android:background="@drawable/shape_input" android:padding="8dp"/>
+        <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/qte_base_neutre_result" android:layout_marginTop="8dp"
+                app:layout_constraintTop_toBottomOf="@+id/textView9" app:layout_constraintStart_toStartOf="parent"
+                android:layout_marginLeft="8dp" android:layout_marginStart="8dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:layout_marginEnd="4dp" android:layout_marginRight="4dp" android:textSize="18sp"
+                android:textColor="@android:color/black"/>
+        <TextView
+                android:text="Concentration souhaitée :"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/concentration_souhaitée_titre"
+                app:layout_constraintStart_toStartOf="parent"
+                android:layout_marginLeft="8dp" android:layout_marginStart="8dp" android:textSize="18sp"
+                android:layout_marginEnd="8dp" app:layout_constraintEnd_toStartOf="@+id/guideline3"
+                android:layout_marginRight="8dp"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintTop_toTopOf="@+id/ctr_voulu_et"
+                app:layout_constraintBottom_toBottomOf="@+id/ctr_voulu_et"/>
+        <EditText
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:inputType="number"
+                android:ems="10"
+                android:id="@+id/vlm_booster_et" app:layout_constraintEnd_toEndOf="parent"
+                android:layout_marginEnd="8dp"
+                android:layout_marginRight="8dp" app:layout_constraintStart_toStartOf="@+id/guideline3"
+                android:layout_marginTop="8dp" app:layout_constraintTop_toBottomOf="@+id/ctr_voulu_et" android:hint="ml"
+                android:textSize="16sp" android:background="@drawable/shape_input" android:padding="8dp"/>
+        <EditText
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:inputType="number"
+                android:ems="10"
+                android:id="@+id/qte_base_et" app:layout_constraintEnd_toEndOf="parent"
+                android:layout_marginEnd="8dp" android:layout_marginRight="8dp"
+                app:layout_constraintStart_toStartOf="@+id/guideline3"
+                android:textSize="16sp" android:hint="ml"
+                app:layout_constraintHorizontal_bias="1.0" android:layout_marginTop="8dp"
+                app:layout_constraintTop_toTopOf="parent" android:background="@drawable/shape_input"
+                android:padding="8dp"/>
+        <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/booster_sup_result"
+                app:layout_constraintStart_toStartOf="parent"
+                android:layout_marginLeft="8dp" android:layout_marginStart="8dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:layout_marginEnd="5dp" android:layout_marginRight="5dp" android:textColor="@android:color/black"
+                android:textSize="18sp" app:layout_constraintHorizontal_bias="1.0" android:layout_marginTop="8dp"
+                app:layout_constraintTop_toBottomOf="@+id/booster_inf_result"/>
+        <EditText
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:inputType="numberDecimal"
+                android:ems="10"
+                android:id="@+id/ctr_booster_et" app:layout_constraintEnd_toEndOf="parent"
+                android:layout_marginEnd="8dp"
+                android:layout_marginRight="8dp" app:layout_constraintStart_toStartOf="@+id/guideline3"
+                android:layout_marginTop="8dp" app:layout_constraintTop_toBottomOf="@+id/vlm_booster_et"
+                android:hint="mg/ml" android:textSize="16sp" android:padding="8dp"
+                android:background="@drawable/shape_input"/>
+        <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/booster_inf_result" android:layout_marginTop="8dp"
+                app:layout_constraintTop_toBottomOf="@+id/nb_booster_results"
+                app:layout_constraintStart_toStartOf="parent"
+                android:layout_marginLeft="8dp" android:layout_marginStart="8dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:layout_marginEnd="5dp" android:layout_marginRight="5dp" android:textColor="@android:color/black"
+                android:textSize="18sp"/>
+        <TextView
+                android:text="Volume des boosters : "
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/vlm_boost_titre"
+                app:layout_constraintStart_toStartOf="parent" android:layout_marginLeft="8dp"
+                android:layout_marginStart="8dp" android:textSize="18sp" android:layout_marginEnd="8dp"
+                app:layout_constraintEnd_toStartOf="@+id/guideline3" android:layout_marginRight="8dp"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintBottom_toBottomOf="@+id/vlm_booster_et"
+                app:layout_constraintTop_toTopOf="@+id/vlm_booster_et"/>
+        <android.support.constraint.Guideline android:layout_width="wrap_content" android:layout_height="wrap_content"
+                                              android:id="@+id/guideline3"
+                                              android:orientation="vertical" app:layout_constraintGuide_percent="0.75"/>
+        <TextView
+                android:text="Concentration des boosters :"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/ctr_booster_titre"
+                app:layout_constraintStart_toStartOf="parent"
+                android:layout_marginLeft="8dp" android:layout_marginStart="8dp" android:textSize="18sp"
+                android:layout_marginEnd="8dp" app:layout_constraintEnd_toStartOf="@+id/guideline3"
+                android:layout_marginRight="8dp"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintTop_toTopOf="@+id/ctr_booster_et"
+                app:layout_constraintBottom_toBottomOf="@+id/ctr_booster_et"/>
+        <TextView
+                android:text="Quantité de base souhaitée :"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/qte_bast_titre"
+                app:layout_constraintStart_toStartOf="parent"
+                android:layout_marginLeft="8dp" android:layout_marginStart="8dp" android:textSize="18sp"
+                android:layout_marginEnd="8dp" app:layout_constraintEnd_toStartOf="@+id/guideline3"
+                android:layout_marginRight="8dp"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintTop_toTopOf="@+id/qte_base_et"
+                app:layout_constraintBottom_toBottomOf="@+id/qte_base_et"/>
+        <TextView
+                android:text="Résultats"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView9" android:layout_marginTop="8dp"
+                app:layout_constraintTop_toBottomOf="@+id/ctr_booster_et" app:layout_constraintStart_toStartOf="parent"
+                android:layout_marginLeft="8dp" android:layout_marginStart="8dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:layout_marginEnd="8dp" android:layout_marginRight="8dp" android:textColor="@android:color/black"
+                android:textStyle="bold" android:textSize="24sp"/>
+        <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/nb_booster_results" android:layout_marginTop="8dp"
+                app:layout_constraintTop_toBottomOf="@+id/qte_base_neutre_result"
+                app:layout_constraintStart_toStartOf="parent" android:layout_marginLeft="8dp"
+                android:layout_marginStart="8dp" app:layout_constraintEnd_toEndOf="parent"
+                android:layout_marginEnd="8dp"
+                android:layout_marginRight="8dp" android:textSize="18sp" android:textColor="@android:color/black"/>
+    </android.support.constraint.ConstraintLayout>
+
+</android.support.constraint.ConstraintLayout>

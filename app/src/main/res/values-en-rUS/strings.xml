@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">EasyRecipe</string>
+    <string name="nom_recette">Recipe Name</string>
+    <string name="nom">Name</string>
+    <string name="item_recette_nombre_ingredients">%d ingredients</string>
+    <string name="item_recette_temps_step">Step time : %d to %d days</string>
+    <string name="item_recette_nombre_ingredients_one">%d ingredients</string>
+    <string name="item_recette_temps_step_one">Step time : %d to %d days</string>
+    <string name="drawer_open">drawer open</string>
+    <string name="drawer_close">drawerclos</string>
+    <string name="title_activity_confirm_creation">ConfirmCreationActivity</string>
+    <string name="drawer_title">Hello %s !</string>
+    <string name="mes_recettes">My recipes</string>
+    <string name="calcul_base_title">Base tool</string>
+    <string name="result_qte_base_neutre">You need to put %s ml of neutral base</string>
+    <string name="result_nb_booster">You need %s boosters</string>
+    <string name="result_plus_ou_moins_booster">With %d boosters, you would have a %s mg/ml concentration !</string>
+    <string name="mes_liquides">Liquids I made !</string>
+    <string name="felicition_creation">Congrats Bro, your new recipe %s will be ready :</string>
+    <string name="le">The</string>
+    <string name="confirmer">Confirm ?</string>
+    <string name="titre_oublie">You need to put a title</string>
+    <string name="element_missing">Bro, some elements are missing</string>
+    <string name="titre_missing">Bro, you need to put a title</string>
+    <string name="creer_une_recette">Create a recipe !</string>
+    <string name="create_new_creation">Make a new liquid</string>
+    <string name="new_creation_today">Today, we\'re gonna make a flask of %s</string>
+    <string name="missing_quantity">Bro, quantity is missing</string>
+    <string name="authentication_failed">Authentication failed bro</string>
+    <string name="wrong_confirm_password">Bro, wrong confirmation password</string>
+    <string name="form_incomplete">Bro, some elements are missing</string>
+    <string name="enregistrement_user">SignIn user</string>
+    <string name="connexion">Bro, connexion in progress</string>
+</resources>

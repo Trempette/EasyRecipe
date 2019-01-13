@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">EasyRecipe</string>
+    <string name="nom_recette">Le nom de la recette</string>
+    <string name="nom">Nom</string>
+    <string name="item_recette_nombre_ingredients">%d ingredients</string>
+    <string name="item_recette_temps_step">Temps de step : %d à %d jours</string>
+    <string name="item_recette_nombre_ingredients_one">%d ingredient</string>
+    <string name="item_recette_temps_step_one">Temps de step : %d jours</string>
+    <string name="drawer_open">drawer open</string>
+    <string name="drawer_close">drawerclos</string>
+    <string name="title_activity_confirm_creation">ConfirmCreationActivity</string>
+    <string name="drawer_title">Hello %s !</string>
+    <string name="mes_recettes">Mes recettes</string>
+    <string name="calcul_base_title">Calcul de base !</string>
+    <string name="result_qte_base_neutre">Il te faut %s ml de base neutre !</string>
+    <string name="result_nb_booster">Il te faut %s booster(s) !</string>
+    <string name="result_plus_ou_moins_booster">Avec %d booster(s), tu aurais une concentration de %s mg/ml !</string>
+    <string name="mes_liquides">Mes liquides réalisés</string>
+    <string name="felicition_creation">Felicitation, ta recette de %s sera prête :</string>
+    <string name="le">Le</string>
+    <string name="confirmer">Confirmer ?</string>
+    <string name="titre_oublie">Il faut mettre un titre</string>
+    <string name="element_missing">Bro, il manque des éléments dans ta recette</string>
+    <string name="titre_missing">Bro, pense à mettre un titre à ta recette</string>
+    <string name="creer_une_recette">Créer une recette !</string>
+    <string name="create_new_creation">Faire un nouveau liquide</string>
+    <string name="new_creation_today">Aujourd\'hui on va faire une fiole de %s</string>
+    <string name="missing_quantity">Bro, il manque la quantité</string>
+    <string name="authentication_failed">L\'identification a échoué.</string>
+    <string name="wrong_confirm_password">Bro, les mots de passe ne concordent pas</string>
+    <string name="form_incomplete">Bro, il manque des éléments</string>
+    <string name="enregistrement_user">Enregistrement de l\'utilisateur en cours</string>
+    <string name="connexion">Bro, Connexion en cours</string>
+    <string name="les_ingr_dients">Les ingrédients</string>
+    <string name="ok_pour_moi">Ok pour moi !</string>
+    <string name="finalement_non">Hmmm non</string>
+    <string name="oui">Hell Yes !</string>
+
+
+</resources>

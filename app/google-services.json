@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "842228299615",
+    "firebase_url": "https://easyrecipe-5bcdc.firebaseio.com",
+    "project_id": "easyrecipe-5bcdc",
+    "storage_bucket": "easyrecipe-5bcdc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:842228299615:android:0d008a8de9c50cf4",
+        "android_client_info": {
+          "package_name": "trempetteinc.easyrecipe"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "842228299615-80jcnagftk0sk2aid8t63oratseffgia.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "trempetteinc.easyrecipe",
+            "certificate_hash": "a8bdfe827fa5b2187e7d2af5a435cd640b5dc64a"
+          }
+        },
+        {
+          "client_id": "842228299615-dfmpo9inmk47mkvj10qktlobjmpquvmk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBIn1LFlPoxtQ0DxR7pw8k79yo0r5KzhLU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "842228299615-dfmpo9inmk47mkvj10qktlobjmpquvmk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
